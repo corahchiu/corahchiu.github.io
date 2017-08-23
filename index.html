@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Corah's Porfolio Page</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();><b>Menu</b></a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About Me</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>My Projects</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Hello! Welcome to my page!</h1>
+            <h2>My name is Corah.</h2>
+            <br>
+            <a href="#about" id="find-out-more" class="btn btn-dark btn-lg">Find out about me</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>About Me</h1>
+                    <hr class="small">
+                </div>
+            </div>
+            <!-- /.row -->
+            <div id="headshot" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <img src="img/headshot.jpg">
+            </div>
+            <!-- /.headshot -->
+            <div class="description col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <p class="lead">
+                    Greetings! My name is Corah Chiu. I am currently receiving 1000+ hours of training in Full Stack Web Development at Accelerate, Hong Kong.
+                    <br><br>
+                    I enjoy playing chess, reading, and studying languages. I used to be an English teacher and a translator. However, now I would like to develop my career in different areas, such as software engineering, cybersecurity, and product management.
+                    <br><br>
+                    While I have many interests and aspirations, right now my focus is on improving my skills in programming.
+                    <br><br>
+                    Please read further to view <a href="#portfolio" class="ext-link">my projects</a>.
+                </p>
+            </div>
+            <!-- /.description -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h1>My Projects</h1>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="projects">
+                                <h2>
+                                    <strong><u>Coding Monkey</u></strong>
+                                </h2>
+                                <img class="img-responsive" src="img/coding-monkey.png">
+                                <br>
+                                <p>
+                                    HTML5 game written with JavaScript using Phaser.
+                                    <br>
+                                    Group project at coding bootcamp.
+                                </p>
+                                <a href="http://codingmonkey.surge.sh/" target="_blank" id="play-game" class="btn btn-light">Play the game</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="projects">
+                                <h2>
+                                    <strong><u>MTR Easy Time</u></strong>
+                                </h2>
+                                <img class="img-responsive" src="img/mtr-easy-time.png">
+                                <br>
+                                <p>
+                                    Telegram chatbot that provides MTR information.
+                                    <br>
+                                    Group project at coding bootcamp.
+                                </p>
+                                <a href="https://t.me/Mtr_time_bot" target="_blank" id="try-it" class="btn btn-light">Try it out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h1><strong>Contact Me</strong></h1>
+                    <hr class="small">
+                    <ul class="list-unstyled">
+                        <!-- <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li> -->
+                        <li><i class="fa fa-github-alt fa-fw"></i> <a href="https://github.com/corahchiu/" target="_blank" class="ext-link">corahchiu</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Corah's webpage 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    </script>
+
+</body>
+
+</html>
