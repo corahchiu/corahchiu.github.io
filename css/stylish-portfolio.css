@@ -235,15 +235,12 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.portfolio {
-    padding: 50px 0;
+    padding: 10px 0px 20px 0px;
 }
 
 .projects {
     margin-bottom: 15px;
-    padding: 15px 40px 30px 40px;
+    padding: 1px 40px 30px 40px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 7px;
 }
@@ -252,6 +249,9 @@ hr.small {
     border: 1px solid rgba(136, 133, 133, 0.42);
 }
 
+.projects p {
+    margin: 15px;
+}
 
 /* Footer */
 
